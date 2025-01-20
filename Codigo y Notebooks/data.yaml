@@ -1,0 +1,11 @@
+# Train/val/test(optional) sets.
+path: /content/gdrive/MyDrive/TFM/Entrenamiento/Datos/7.2_TACO+Playa+minor_class_4157 # dataset root dir
+train: images/train # train images (relative to 'path')
+val: images/val # val images (relative to 'path')
+
+# Classes.
+names:
+    0: cardboard
+    1: plastic
+    2: glass
+    3: metal
